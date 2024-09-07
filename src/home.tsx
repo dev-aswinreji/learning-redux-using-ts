@@ -18,7 +18,6 @@ export default function Home (){
     <button onClick={handleClearCart}>Clear Cart</button>
     <h1>Items: {items.length === 0 ? "Cart is empty":items.length } </h1>
     <ul>
-
       {items.map((item:string)=><li>{item}</li>)}
       </ul>
     <h1>Hello This is home page</h1>
